@@ -37,10 +37,65 @@ FreeBirds is an application designed to streamline job postings, proposals, and 
 ### 5. File Uploads
 - Upload images or documents up to 2GB  
 
-### 6. Stripe Payment Integration (optional)
-- Accept payments for premium job postings or proposals  
+# Project Structure
+
+FreeBirds/
+├── src/main/java/com/FreeBirds/FreeBirds/
+│   ├── controllers/      # REST  controllers
+│   ├── dtos/             # Data Transfer Objects
+│   ├── entities/         # Database entities
+│   ├── enums/            # Enum classes
+│   ├── exceptions/       # Custom exceptions
+│   ├── repository/       # JPA Repositories
+│   ├── services/         # Service interfaces
+│   └── services/impl/    # Service implementations
+├── src/main/resources/
+│   ├── application.properties
+│   └── templates/
+└── pom.xml               # Maven dependencies
 
 ---
 
-## Project Structure
+## Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/yourusername/FreeBirds.git
+cd FreeBirds
+
+## 2. Database Setup
+
+- Create a database (`hotel` or `freebirds`) in PostgreSQL
+- Update your `application.properties` with credentials or environment variables  
+
+## 3. Configure Environment Variables (Recommended for Secrets)
+DB_USERNAME=your_db_username
+DB_PASSWORD=your_db_password
+JWT_SECRET=your_jwt_secret
+EMAIL_USERNAME=your_email
+EMAIL_PASSWORD=your_email_app_password
+
+## 4. Run the Application
+mvn clean install
+mvn spring-boot:run
+
+## 5. Access the App
+Open http://localhost:8080 in your browser
+
+---
+
+## Environment & Dependencies
+- Java 17+
+- Spring Boot 3.x
+- Hibernate/JPA
+- Maven
+
+---
+
+## Contributing
+- Fork the repository
+- Create a new branch for your feature
+- Commit your changes
+- Create a pull request
+
 
