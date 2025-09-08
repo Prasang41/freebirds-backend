@@ -59,13 +59,12 @@ FreeBirds/
 ## Setup Instructions
 
 ### 1. Clone the repository
-```bash
 git clone https://github.com/yourusername/FreeBirds.git
 cd FreeBirds
 
 ## 2. Database Setup
 
-- Create a database (`hotel` or `freebirds`) in PostgreSQL
+- Create a database (`freebirds`) in PostgreSQL
 - Update your `application.properties` with credentials or environment variables  
 
 ## 3. Configure Environment Variables (Recommended for Secrets)
