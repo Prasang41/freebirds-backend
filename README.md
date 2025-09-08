@@ -38,7 +38,7 @@ FreeBirds is an application designed to streamline job postings, proposals, and 
 - Upload images or documents up to 2GB  
 
 # Project Structure
-
+```
 FreeBirds/
 ├── src/main/java/com/FreeBirds/FreeBirds/
 │   ├── controllers/      # REST  controllers
@@ -53,7 +53,7 @@ FreeBirds/
 │   ├── application.properties
 │   └── templates/
 └── pom.xml               # Maven dependencies
-
+```
 ---
 
 ## Setup Instructions
