@@ -1,6 +1,6 @@
 # FreeBirds - Job & Proposal Management Platform
 
-[![Live on Render](https://img.shields.io/badge/Live%20Demo-Render-blue?style=for-the-badge&logo=render)](https://freebirds-latest.onrender.com)
+[![Live on Render](https://freebirds-latest.onrender.com)
 
 FreeBirds is an application designed to streamline job postings, proposals, and contracts. It allows users to register, post jobs, submit proposals, and manage notifications seamlessly.
 
